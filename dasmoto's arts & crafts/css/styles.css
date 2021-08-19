@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid red;
+    font-family: Helvetica;
+    width: 100%;
+    margin: auto;
+    padding: 0 5px;
+}
+
+header .title {
+    width: 100%;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0; 
+    background: url("../images/pattern.jpeg");
+    color: khaki;
+}
+
+main section .category {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+main section .brushes {
+    background-color: mediumspringgreen;
+}
+
+main section .frames {
+    background-color: lightcoral;
+}
+
+main section .paint {
+    background-color: skyblue;
+}
+
+main section .product-image {
+    margin: 20px 0;
+}
+
+main section .product-description .price {
+    color: blue;
+    font-weight: bold;
+}
+
+main section .product-description .product-title {
+    padding: 0 0 10px 0;
+}
