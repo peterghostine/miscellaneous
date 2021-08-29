@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background-color: #ffece6;
 }
@@ -12,10 +17,26 @@ table {
     font-size: .7rem;
     margin-bottom: 2em;
     background-color: #ffffff;
+
 }
 
-table.narrow-table {
-    width: 30%;
+.narrow-tables {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Along the main axis */ 
+    align-content: flex-start; /* Along the cross axis */
+    align-items: flex-start; /* Items are displayed in their original heights and widths, and they're aligned on a per-row basis. */
+}
+
+.narrow-tables div {
+    width: 100%;
+}
+
+.narrow-table {
+    width: 100%;
 }
 
 caption {
@@ -33,16 +54,32 @@ tr.table-summary a {
     font-weight: bold;
 }
 
+.narrow-table {
+    border: 2px solid transparent;
+}
+
+tr.html-css {
+    background-color: #fffd71;
+}
+
+tr.html-css td {
+    border: 2px solid #fffd71;
+}
+
 tr.ui-ux {
     background-color: #bbffe5;
 }
 
-tr.html-ref {
-    background-color: #fffd71;
+tr.ui-ux td {
+    border: 2px solid #bbffe5;;
 }
 
-tr.css-ref {
-    background-color: #ffc1c1;
+tr.design {
+    background-color: #9fd9ff;
+}
+
+tr.design td {
+    border: 2px solid #9fd9ff;
 }
 
 td,
