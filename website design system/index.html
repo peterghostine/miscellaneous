@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Oxygen:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>website Guide/Design System</title>    
+</head>
+<body class="font-oxygen">
+    <!-- Displays page title against non-white background -->
+    <header>
+        <h1>ACME's Website Design Guidelines</h1>
+    </header>
+    <!-- Main section -->
+    <main>
+        <!-- 'Colors' section showcases various color patterns -->
+        <section id="color-schemes">
+            <h3><span>Color Schemes</h3></span></h3>
+            <div>
+                <p><a href="http://www.dgp.toronto.edu/~donovan/color/colorcomp.pdf" target=_blank>The University of Toronto conducted an 
+                interesting study</a> on colors and how they are perceived by individuals. They determined that most people prefer 
+                combinations of simple colors. In most cases, just two or three colors were perceived as appealing. That’s why sticking 
+                to a color palette is so important to the success of your site, and ultimately your business. 
+                <em><a href="https://www.quicksprout.com/trending-website-color-schemes" target=_blank>Read more...</a></em></p>
+            </div>
+            <!-- Color pattern #1 -->
+            <div class="color-scheme soft-tones">
+                <!-- Color pattern name -->
+                <p class="color-scheme-name">Soft Tones:</p>
+                <!-- Color pattern in an unordered list -->
+                <ul>
+                    <li class="color1">#c5d5cb</li>
+                    <li class="color2">#9fa8a3</li>
+                    <li class="color3">#e3e0cf</li>
+                </ul>    
+            </div>
+            <!-- Color pattern #2 -->
+            <div class="color-scheme gray-offwhite-pop">
+                <p class="color-scheme-name">Gray, Off-White, Pop:</p>
+                <ul>
+                    <li class="color1">#e3e3e3</li>
+                    <li class="color2">#f6f6f8</li>
+                    <li class="color3">#c60021</li>
+                </ul>    
+            </div>
+            <!-- Color pattern #3 -->
+            <div class="color-scheme pink-black">
+                <p class="color-scheme-name">Soft Pink, Bright Pink, Jet Black:</p>
+                <ul>
+                    <li class="color1">#000000</li>
+                    <li class="color2">#fa255e</li>
+                    <li class="color3">#c39ea0</li>
+                    <li class="color4">#f8e5e5</li>
+                </ul>    
+            </div>         
+            <!-- Color pattern #4 -->
+            <div class="color-scheme gray-yellow-blue">
+                <p class="color-scheme-name">Gray, Soft Yellow, Deep Blue:</p>
+                <ul>
+                    <li class="color1">#dddfd4</li>
+                    <li class="color2">#fae596</li>
+                    <li class="color3">#3fb0ac</li>
+                    <li class="color4">#173e43</li>
+                </ul>    
+            </div>                 
+        </section>
+        <!-- 'Fonts' section showcases various color patterns -->
+        <section id="fonts">
+            <h3><span>Google Fonts</span></h3>
+            <div>
+                <p>Font size might seem as insignificant and something that is easily pulled off, but there are actual guidelines 
+                    when it comes to it. 
+                <em><a href="https://w3-lab.com/website-font-size-guidelines/" target=_blank>Read more...</a></em></p>
+            </div>
+            <!-- Font #1 -->
+            <div class="font font-roboto">
+                <!-- font name -->
+                <p class="font-name">Roboto</p>
+                <!-- Font samples in an unordered list -->
+                <ul>
+                    <li class="normal">Once you’ve finished building your house, you notice you’ve accidentally learned something that 
+                    you really should have known before you started.</li>
+                    <li class="italic">Once you’ve finished building your house, you notice you’ve accidentally learned something that 
+                    you really should have known before you started.</li>
+                    <li class="bold">Once you’ve finished building your house, you notice you’ve accidentally learned something that 
+                    you really should have known before you started.</li>
+                </ul>    
+            </div>
+            <div class="font font-oxygen">
+                <!-- font name -->
+                <p class="font-name">Oxygen</p>
+                <!-- Font samples in an unordered list -->
+                <ul>
+                    <li class="normal">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                    really should have known before you started.</li>
+                    <li class="italic">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                        really should have known before you started.</li>
+                    <li class="bold">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                    really should have known before you started.</li>
+                </ul>    
+            </div>    
+            <div class="font font-open-sans-condensed">
+                <!-- font name -->
+                <p class="font-name">Open Sans Condensed</p>
+                <!-- Font samples in an unordered list -->
+                <ul>
+                    <li class="normal">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                    really should have known before you started.</li>
+                    <li class="italic">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                    really should have known before you started.</li>
+                    <li class="bold">Once you’ve finished building your house, you notice you’ve accidentally learned something that you 
+                    really should have known before you started.</li>
+                </ul>    
+            </div>                     
+        </section>
+        <section id="text-styles">
+            <h3><span>Text Styles</span></h3>
+            <!-- Font #1 -->
+            <div>
+                <!-- Headings in an unordered list -->
+                <ul id="text-style"> <!-- Styles -->
+                    <li>
+                        <h1>&lt;H1&gt; = Heading Level 1</h1>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 32px</li>
+                            <li>font weight: 1000</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>&lt;H2&gt; = Heading Level 2</h2>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 24px</li>
+                            <li>font weight: 800</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&lt;H3&gt; = Heading Level 3</h3>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 19px</li>
+                            <li>font weight: 600</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>&lt;H4&gt; = Heading Level 4</h4>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 16px</li>
+                            <li>font weight: 500</li>
+                        </ul>
+                    </li>   
+                    <li>
+                        <h5>&lt;H5&gt; = Heading Level 5</h5>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 16px</li>
+                            <li>font weight: 500</li>
+                        </ul>
+                    </li> 
+                    <li>
+                        <h6>&lt;H6&gt; = Heading Level 6</h6>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Roboto</li>
+                            <li>Font size: 16px</li>
+                            <li>font weight: 500</li>
+                        </ul>
+                    </li> 
+                    <li>
+                        <p>&lt;p&gt; = Paragraph</p>
+                        <ul class="style-details font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Oxygen</li>
+                            <li>Font size: 16px</li>
+                            <li>font weight: 400</li>
+                        </ul>
+                    </li>
+                     <li>
+                        <span class="font-open-sans-condensed ul">List</span>
+                        <ul class="style-details ul font-open-sans-condensed"> <!-- Style details -->
+                            <li>Font family: Open Sans Condensed</li>
+                            <li>Font size: 18px</li>
+                            <li>font weight: 400</li>
+                        </ul>
+                    </li> 
+                </ul>    
+                <p id="footnote">Note: every style name is displayed in its corresponding style (per the bulleted list). 
+                    The bulleted list itself is displayed using the 'list' style.</p>
+            </div>         
+        </section>    
+    </main>
+</body>
+</html>

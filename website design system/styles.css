@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #9fa8a3;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+section { /* 3 sections: Color schemes, Fonts, Text Styles. */
+    background-color: #fff8ea;
+    position: relative;
+    top: 100px;
+    margin: 30px auto;
+    width: 70%;
+    padding: 10px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+section h3 span { /* Section title */
+    background-color: #9fa8a3;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 2px;
+}
+
+section p {
+    padding: 10px 0 2px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #9fa8a3;
+}
+
+/* ----------------------------------- Color Schemes ----------------------------------- */
+
+.color-scheme { /* Color Scheme item within Color Schemes section */
+    padding: 20px 0;
+    min-height: 50px; 
+}
+
+.color-scheme-name { /* Every Color Scheme has a name */
+    margin: 0 0 0 10px;
+    clear: left;
+    font-weight: bold;
+}
+
+.color-scheme ul { /* Every Color Scheme is an unordered list */
+    margin: 0 0 0 10px;
+}
+
+.color-scheme li { /* The individual color codes of a Color Scheme */
+    list-style: none;
+    width: 150px;
+    min-height: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #537a61;
+    font-weight: bold;
+    float: left;
+    
+}
+
+/* Color rules */
+.soft-tones .color1 {
+    background-color: #c5d5cb;
+}
+
+.soft-tones .color2 {
+    background-color: #9fa8a3;
+}
+
+.soft-tones .color3 {
+    background-color: #e3e0c1;
+}
+/* ----------------------------- */
+.gray-offwhite-pop .color1 {
+    background-color: #e3e3e3;
+}
+
+.gray-offwhite-pop .color2 {
+    background-color: #f6f6f8;
+}
+
+.gray-offwhite-pop .color3 {
+    background-color: #c60021;
+}
+/* ----------------------------- */
+.pink-black .color1 {
+    background-color: #000000;
+}
+
+.pink-black .color2 {
+    background-color: #fa255e;
+}
+
+.pink-black .color3 {
+    background-color: #c39ea0;
+}
+
+.pink-black .color4 {
+    background-color: #f8e5e5;
+}
+/* ----------------------------- */
+.gray-yellow-blue .color1 {
+    background-color: #dddfd4;
+}
+
+.gray-yellow-blue .color2 {
+    background-color: #fae596;
+}
+
+.gray-yellow-blue .color3 {
+    background-color: #3fb0ac;
+}
+
+.gray-yellow-blue .color4 {
+    background-color: #173e43
+}
+
+/* ----------------------------------- FONTS ----------------------------------- */
+
+.font { /* Font item within Fonts section */
+    display: block;
+    padding: 20px 0;
+    height: 120px;
+    line-height: 1.4;
+    font-size: 1rem; 
+    overflow: hidden;
+}
+
+.font-name { /* Every Font item has a name */
+
+    margin: 0 0 0 10px;
+    clear: left;
+    font-weight: bold;
+}
+
+.font ul { /* Every Font is an unordered list */
+    list-style: none;
+    margin: 0 0 0 10px;
+}
+
+/* Font style rules */
+.font .normal {
+    font-style: normal;
+}
+
+.font .italic {
+    font-style: italic;
+}
+
+.font .bold {
+    font-weight: bold;
+}
+
+/* Font stacks */
+
+.font-oxygen {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.font-open-sans-condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* ----------------------------------- TEXT STYLES ----------------------------------- */
+
+#text-style { /* Unordered list of all Style elements */
+    list-style: none;
+    margin: 10px 0 0 10px;
+}
+
+#text-style {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#text-style li { /* Style element */
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+#text-style .style-details { /* Style element details list */
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#text-style .style-details li { /* Style element detail item */
+    display:list-item;
+    line-height: 1.4;
+    margin-bottom: 0px;
+}
+
+#text-style ul ol {
+    margin: 0px 20px;
+}
+
+#text-style li {
+    line-height: 40px;
+    padding: 0;
+}
+
+#text-style h1 {
+    font-size: 2em;
+    font-weight: 1000;
+}
+
+#text-style h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#text-style h3 {
+    font-size: 1.17em;
+    font-weight: 600;
+}
+
+#text-style h4 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#text-style h5 {
+    font-size: 0.83em;
+    font-weight: 500;
+}
+
+#text-style h6 {
+    font-size: 0.67em;
+    font-weight: 500;
+}
+
+#text-style p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#text-style .ol,
+.ul {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footnote {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
