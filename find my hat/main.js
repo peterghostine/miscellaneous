@@ -32,18 +32,14 @@ while (gameActive) {
   switch (direction) {
     case 'u':
       position[0] = position[0] -1;
-      position[1] = position[1];
       break;
     case 'd':
       position[0] = position[0] + 1;
-      position[1] = position[1];
       break;
     case 'l':
-      position[0] = position[0];
       position[1] = position[1] - 1;
       break;
     case 'r':    
-      position[0] = position[0];
       position[1] = position[1] + 1;
       break;
   }
